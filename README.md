@@ -32,6 +32,17 @@ type = string
 `
 to use `var.subnet_cidr_block`
 
+Env 
+
+export 
+export 
+
+global - 
+
+aws cli  - aws configure 
+
+
+
 
 
 
