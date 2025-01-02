@@ -7,3 +7,12 @@
 5. `terraform destroy`
 6. 'terraform state list'
 7. 'terraform state  show aws_subnet.dev-subnet-1'
+
+output 
+`
+output "vpc-id" {
+value = aws_vpc.development-vpc.id
+}
+`
+
+
