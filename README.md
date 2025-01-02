@@ -26,6 +26,8 @@ command prompt and parameter is another way not great .
 `
 variable "subnet_cidr_block" {
 description = "cidr block subnet " 
+default = "10.0.10.0/20"
+type = string
 }
 `
 to use `var.subnet_cidr_block`
