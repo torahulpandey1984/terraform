@@ -31,6 +31,7 @@ type = string
 }
 `
 to use `var.subnet_cidr_block`
+set global variable value via env - TF_VAR_avail_zone=""
 
 Env 
 
